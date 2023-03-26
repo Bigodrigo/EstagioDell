@@ -1,2 +1,0 @@
-# EstagioDell
-Desafio Estágio Dell
