@@ -8,6 +8,7 @@ import { tabela } from "../utils/tabelaDist"
 import { custo } from "../utils/scripts"
 
 //Minha ideia original era utilizar Cid.map mas não consegui!
+//Adicionar um Alert!
 const Cidade = () => {
   const [partida, setPartida] = useState('Cidade');
   const [destino, setDestino] = useState('Cidade');
@@ -17,6 +18,7 @@ const Cidade = () => {
   const [abertoC, setAbertoC] = useState(false);
   const [cidade1, setCidade1] = useState();
   const [cidade2, setCidade2] = useState();
+  const [result, setResult] = useState();
 
   const AberturaP = () => {
     if (abertoP == true) {
@@ -69,7 +71,9 @@ const Cidade = () => {
       console.log(final)
       console.log('De ',partida,' para ',destino,', utilizando um caminhão de ',caminhao,' porte, a distância é de ,',distancia,' km e o custo será de R$ ',final,'.')
     }
-    catch {}
+    catch {
+      if (undefined) { setError(true)}
+    }
     }
   }
     return (

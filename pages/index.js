@@ -24,6 +24,7 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p><b>Bem-vindo!!</b> Aqui você pode selecionar duas cidades e um tamanho de caminhão!</p>
+        <p>Por favor! Habilite o console (F12 no Chrome) para uma melhor experiência! Algumas funções não foram finalizadas e pode ser necessário clicar novamente nos botões!</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
        <Cidade />
