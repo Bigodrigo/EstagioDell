@@ -1,0 +1,32 @@
+[
+    {
+        "_id":"0",
+        "item":"Celular",
+        "peso":0.5
+    },
+    {
+        "_id":"1",
+        "item":"Geladeira",
+        "peso":60
+    },
+    {
+        "_id":"2",
+        "item":"Freezer",
+        "peso":100
+    },
+    {
+        "_id":"3",
+        "item":"Cadeira",
+        "peso":5
+    },
+    {
+        "_id":"4",
+        "item":"Luminária",
+        "peso":0.8
+    },
+    {
+        "_id":"5",
+        "item":"Lavadora",
+        "peso":120
+    }
+]
