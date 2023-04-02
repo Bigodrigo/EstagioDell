@@ -1,5 +1,5 @@
 # Desafio PUCRS e Dell para estágio!
-## (Pausado - 02/04/2023)
+## (Pausado - 02/04/2023) - Acessível em: https://estagio-dell.vercel.app
 Este projeto foi desenvolvido para resolver um desafio de 3 etapas. Uma tabela com distâncias entre cidades foi disponibilizada,
 junto desta tabela uma relação entre caminhões P, M, G, sua carga máxima e custo por km e por fim uma relação de pesos para produtos.
 1 - A primeira etapa pedia uma calculadora, informando as cidades do trajeto e o tamanho do caminhão, qual o custo final do transporte?
